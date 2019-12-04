@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cairo Metro Ticket</string>
+    <string name="metro_map">خريطة مترو</string>
+    <string name="nearby_metro">المترو القريبة لأجلك؟</string>
+    <string name="metro_cash">سعر تذكرة مترو؟</string>
+    <string name="changeLang">غير اللغة</string>
+</resources>

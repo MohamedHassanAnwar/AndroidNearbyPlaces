@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#747474"
+    tools:context=".MainActivity">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/changeMyLang"
+           android:text="@string/changeLang"/>
+
+       <ImageView
+           android:layout_width="160dp"
+           android:layout_height="160dp"
+           android:src="@drawable/metro2"
+           android:layout_gravity="center"
+           android:layout_marginTop="15dp"/>
+
+       <LinearLayout
+           android:layout_height="wrap_content"
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp">
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="5dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:padding="2dp"
+               android:id="@+id/map_card"
+               app:cardCornerRadius="2dp"
+               app:cardBackgroundColor="#097a78">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:paddingLeft="5dp"
+                   android:paddingRight="5dp">
+
+                   <ImageView
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:src="@drawable/kharita6"
+                       android:layout_margin="5dp"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/metro_map"
+                       android:textSize="18sp"
+                       android:textColor="#fcfcfc"
+                       android:gravity="center"
+                       android:id="@+id/metro_name"
+                       android:layout_marginTop="15dp"/>
+
+               </LinearLayout>
+
+           </android.support.v7.widget.CardView>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_height="wrap_content"
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp">
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="5dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:padding="2dp"
+               android:id="@+id/where_card"
+               app:cardCornerRadius="2dp"
+               app:cardBackgroundColor="#097a78">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:paddingLeft="5dp"
+                   android:paddingRight="5dp">
+
+                   <ImageView
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:src="@drawable/metroo"
+                       android:layout_margin="5dp"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/nearby_metro"
+                       android:textSize="18sp"
+                       android:gravity="center"
+                       android:textColor="#fcfcfc"
+                       android:id="@+id/metro_name1"
+                       android:layout_marginTop="15dp"/>
+
+               </LinearLayout>
+
+           </android.support.v7.widget.CardView>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_height="wrap_content"
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp">
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="5dp"
+               android:padding="2dp"
+               android:id="@+id/money_card"
+               app:cardCornerRadius="2dp"
+               app:cardBackgroundColor="#097a78">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:paddingLeft="5dp"
+                   android:paddingRight="5dp">
+
+                   <ImageView
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:src="@drawable/money3"
+                       android:layout_margin="5dp"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/metro_cash"
+                       android:textSize="18sp"
+                       android:gravity="center"
+                       android:textColor="#fcfcfc"
+                       android:id="@+id/metro_name2"
+                       android:layout_marginTop="15dp"/>
+
+               </LinearLayout>
+
+           </android.support.v7.widget.CardView>
+       </LinearLayout>
+   </LinearLayout>
+
+</ScrollView>

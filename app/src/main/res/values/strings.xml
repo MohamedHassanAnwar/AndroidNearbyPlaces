@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cairo Metro Ticket</string>
+    <string name="metro_map">Metro Map</string>
+    <string name="nearby_metro">Nearby metro for u ?!</string>
+    <string name="metro_cash">Metro ticket price ?</string>
+    <string name="changeLang">Change Language</string>
+</resources>
